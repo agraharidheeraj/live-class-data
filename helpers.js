@@ -32,3 +32,10 @@ export const copyToClipboard = async (text) => {
   }
 };
 
+
+
+
+match: [
+      /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+      'Please provide a valid email'
+    ]
